@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (min-width: 58px) {
+    .container {
+        max-width: 58px;
+    }
+    #btdemo{
+        order: 1;
+    }
+    #btsignup{
+        order: 0;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .container {
+      max-width: 640px;
+    }
+    #btdemo{
+      order: 1;
+    }
+    #btsignup{
+      order: 0;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+    #btdemo{
+      order: 0;
+    }
+    #btsignup{
+      order: 1;
+    }
+  }
